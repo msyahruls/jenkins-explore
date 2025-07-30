@@ -7,6 +7,7 @@ import (
 
 func main() {
 	fmt.Println("Hello world!")
+	fmt.Println("Hello world!2")
 
 	fmt.Println("3 + 4 =", math.Add(3, 4))
 }
