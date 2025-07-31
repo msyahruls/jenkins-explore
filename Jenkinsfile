@@ -28,12 +28,6 @@ pipeline{
       }
     }
 
-    stage('Checkout') {
-      steps {
-        git 'https://github.com/msyahruls/jenkins-explore.git'
-      }
-    }
-
     stage('Build') {
       steps {
         sh 'go build -o app main.go'
